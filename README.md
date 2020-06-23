@@ -6,7 +6,8 @@
 
 ``` bash
 # install dependencies
-npm install
+# try "cnpm install electron" first if any errors occured
+npm install 
 
 # serve with hot reload at localhost:8080
 npm run dev
