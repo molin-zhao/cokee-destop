@@ -1,0 +1,135 @@
+:root {
+  --main-color-blue: #0275d8;
+  --main-color-success: #5cb85c;
+  --main-color-info: #5bc0de;
+  --main-color-warning: #f0ad4e;
+  --main-color-danger: #d9534f;
+  --main-color-white: #f7f7f7;
+  --main-color-blue-rgb: 2, 117, 216;
+  --main-color-success-rgb: 92, 184, 92;
+  --main-color-info-rgb: 91, 192, 222;
+  --main-color-warning-rgb: 240, 173, 78;
+  --main-color-danger-rgb: 217, 83, 79;
+  --main-color-white-rgb: 247, 247, 247;
+  --main-color-blue-light: #0275d8cc;
+  --main-color-success-light: #5cb85ccc;
+  --main-color-info-light: #5bc0decc;
+  --main-color-warning-light: #f0ad4ecc;
+  --main-color-danger-light: #d9534fcc;
+  --main-color-white-light: #f7f7f7cc;
+}
+
+.display-only {
+  user-select: none;
+}
+
+.active-btn {
+  cursor: pointer;
+}
+
+.active-nav:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 1);
+}
+.active-btn:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.tab-pill {
+  flex: 1;
+  cursor: pointer;
+  max-width: 120px;
+  min-width: 80px;
+  height: 65%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 1px gainsboro solid;
+  border-right: 1px gainsboro solid;
+  border-left: 1px gainsboro solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tab-stack-pill {
+  cursor: pointer;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tab-stack-pill:hover {
+  background-color: aliceblue !important;
+}
+
+.active-pill {
+  background-color: whitesmoke;
+}
+
+.file-title {
+  max-width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.warning {
+  background-color: var(--main-color-warning);
+}
+
+.danger {
+  background-color: var(--main-color-danger);
+}
+
+.success {
+  background-color: var(--main-color-success);
+}
+
+.info {
+  background-color: var(--main-color-info);
+}
+
+.danger-light {
+  background-color: var(--main-color-danger-light);
+}
+
+.warning-light {
+  background-color: var(--main-color-warning-light);
+}
+
+.success-light {
+  background-color: var(--main-color-success-light);
+}
+
+.info-light {
+  background-color: var(--main-color-info-light);
+}
+
+.shadow {
+  box-shadow: -2px 0px 2px gainsboro;
+}
+
+.shadow-dark {
+  box-shadow: -2px 0px 2px black;
+}
+
+@font-face {
+  font-family: "AiDeep";
+  src: url(~@/assets/font/AiDeep.otf);
+}
+
+@font-face {
+  font-family: "ArimaKoshiRegular";
+  src: url(~@/assets/font/ArimaKoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: "JustFont";
+  src: url(~@/assets/font/JustFont.ttf);
+}
